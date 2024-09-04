@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.jogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    button {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        cursor: pointer;
+        font-size: 5rem;
+    }
+}
